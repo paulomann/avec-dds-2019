@@ -8,3 +8,5 @@ PATH_TO_TEST_DATA = join(ROOT, "data", "test")
 
 PATH_TO_MIN_MAX_SCALER = join(ROOT, "models", "scikit",
         "min_max_scaler_training.pickle")
+
+# PATH_TO_LABELS = join(ROOT, "data", "labels.csv")

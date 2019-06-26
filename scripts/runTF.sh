@@ -1,0 +1,1 @@
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=4 --name avec_tensorflow -ti --rm --shm-size=1g --ulimit memlock=-1 --ulimit stack=67108864 -v ~/AVEC2019:/workspace/avec -p 9999:8888 nvcr.io/nvidia/pytorch:19.05-py3 ./avec/scripts/runJupyter.sh
